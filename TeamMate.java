@@ -14,6 +14,14 @@ class TeamMate {
     this.online = online;
     
   }
+  
+  public TeamMate (String userId, String name) {
+
+    this.userId = userId;
+    this.name = name;
+    this.online = false;
+    
+  }
 
   public void setTodos(String userId, String name, boolean online) {
     
